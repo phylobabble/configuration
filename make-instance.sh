@@ -18,6 +18,8 @@ juju add-relation discourse postgresql:db-admin
 juju expose --show-log discourse
 juju get discourse
 
+juju status
+
 # Admin
 # https://github.com/discourse/discourse/blob/master/docs/ADMIN-QUICK-START-GUIDE.md
 
