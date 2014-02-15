@@ -1,0 +1,1 @@
+tail -f /opt/bitnami/apps/discourse/htdocs/log/production_errors.log
