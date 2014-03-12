@@ -46,7 +46,7 @@ It has brought together postdocs, sequence database administrators, and senior r
 ## Project Description (including use cases)
 
 I started the phylobabble website with a "let's see how it goes" mind-set, to see if there was sufficient interest to motivate more sophisticated development.
-I am now confident of the success of phylobabble.
+I am now confident of the potential for phylobabble.
 We have reached a critical mass of consistent participants such that it will continue to be a way for them to converse into the future, and these conversations will attract others.
 
 So far I have done a lot of work myself and funded phylobabble through other research budgets.
@@ -58,8 +58,8 @@ I have also [added](https://github.com/dysania/onebox/pull/199/files) a feature 
 However, ironically, I have not had the time or to actually upgrade our instance to take advantage of this feature for phylobabble, although it works well on up to date Discourse instances such as [meta.discourse.org](http://meta.discourse.org).
 
 It is clear to me that phylobabble will succeed if I commit to its continued development, and I would like to do so.
-However, I need some resources to do so.
-I would like to have some support for improving and maintaining it, as well as someone to cover the hosting fees.
+However, I need some resources to make that happen.
+I would like to have some support for improving and maintaining it, as well as support to cover the hosting fees.
 
 
 ## Relevant or Related Projects
