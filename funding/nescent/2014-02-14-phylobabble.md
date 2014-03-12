@@ -35,7 +35,7 @@ It also allows easy sharing by social media.
 We have seen very rapid growth since beginning the website.
 On March 11th, for example, it had over a hundred *registered* users who had visited in the past 6 days.
 We have had over one thousand unique visitors, and over 53% of our visits are return visits.
-Our original announcement was only two weeks ago, and we continue to acquire new visitors and new registered users.
+Our original public announcement was only two weeks ago, and we continue to acquire new visitors and new registered users at a solid pace.
 We have had posts from many leading individuals in phylogenetics, such as Roderic Page, Alexei Drummond, and Mike Steel.
 I am most proud of how it has enabled communication between scientists, reducing duplicate effort and informing people of the most recent developments.
 It has brought together postdocs, sequence database administrators, and senior researchers.
@@ -54,7 +54,7 @@ I have backed up the web application sporadically.
 I have also [added](https://github.com/dysania/onebox/pull/199/files) a feature to [make a summary of a paper based on its PubMed link](https://meta.discourse.org/t/oneboxes-for-pubmed-are-here/13294).
 However, ironically, I have not had the time or to actually upgrade our instance to take advantage of this feature for phylobabble, although it works well on Discourse instances that are up to date such as [meta.discourse.org](http://meta.discourse.org).
 
-Now that it's clear that phylobabble is going to succeed, I would like to have some support for improving and maintaining it.
+It is clear to me that phylobabble is going to succeed if I commit to its continued development, I would like to have some support for improving and maintaining it.
 The work will not be extensive, but is greatly needed if phylobabble is going to continue into the future.
 
 
@@ -66,19 +66,23 @@ There is a lot of opportunity for synergy between these two projects.
 
 # Major Technical Considerations
 
-*Find the best hosting platform for phylobabble*.
+*Find the best hosting platform for phylobabble and set it up there*
 I have used Bitnami with good success thus far, but this may not be the optimal way forward in the long term.
 For instance, it is not possible to use advanced features of Amazon Web Services such as [elastic load balancing](http://aws.amazon.com/elasticloadbalancing/) which would enable redundancy and allow us to decrease computation cost.
 Also, although it is easy to bring up an instance, it is not completely straightforward to upgrade the software, and I have had difficulties in modifying the way it runs.
 
-Fortunately, there is now a [Discourse matching](
-https://github.com/discourse/discourse_docker
-[Docker](https://www.docker.io/)
+Fortunately, there is now a [Docker](https://www.docker.io/) [image for Discourse](https://github.com/discourse/discourse_docker).
+This should greatly simplify maintenance of phylobabble, although the Discourse Docker image, as well as Docker itself, is definitely still a [work in progress](http://samsaffron.com/archive/2013/11/07/discourse-in-a-docker-container).
+Such an image should make it easy to keep up to date with Discourse releases, and to either use advanced features of Amazon Web Services or another lower-cost platform such as [Digital Ocean](https://www.digitalocean.com).
 
-*Backups*
 
+*Establish procedures for maintenance*
+Right now the system is backed up sporadically when I think of it, and have not kept up with improvements and bugfixes in the Discourse software.
+It would be a tragedy to lose the interesting dialog that has happened even in this short interval, and the current site may have some vulnerabilities.
+Thus I propose a regular maintenance schedule to make backups automatically and a regular schedule of upgrades.
 
 
 # People and Organizations (either potential participants or experts that could be consulted for more information).
 
+I invite you to reach out to anyone who has registered for the forum to get their opinion.
 
